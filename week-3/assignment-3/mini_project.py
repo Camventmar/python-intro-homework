@@ -4,7 +4,7 @@ if day == "saturday":
     print("It's the weekend! Check if you have homework, if not - try to rest.")
 elif day == "sunday":
     print("Happy Sunday! Make sure you do one thing to relax before the start of the week.")
-elif (day == "monday") and time == "morning" or time == "afternoon":
+elif (day == "monday" and (time == "morning" or time == "afternoon")):
     print (f"Happy {day}! Look over your schedule and sieze the day!")
 elif (day == "wednesday") and time == "evening":
     print (f"It is {day} {time}. Have you started your homework?")
