@@ -1,12 +1,12 @@
 day= input("What day is it: ").lower()
 time = input("What time of the day is it: ").lower()
-if day == "saturday":
+if day == "saturday" and time == "morning":
     print("It's the weekend! Check if you have homework, if not - try to rest.")
-elif day == "sunday":
+elif day == "sunday" and time == "afternoon":
     print("Happy Sunday! Make sure you do one thing to relax before the start of the week.")
-elif (day == "monday" and (time == "morning" or time == "afternoon")):
+elif (day == "monday" and time == "morning"):
     print (f"Happy {day}! Look over your schedule and sieze the day!")
-elif (day == "wednesday") and time == "evening":
+elif (day == "wednesday") and time == "afternoon":
     print (f"It is {day} {time}. Have you started your homework?")
 elif (day == "wednesday") and time == "morning":
     print (f"It is {day} {time}. Good morning!")
