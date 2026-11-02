@@ -1,4 +1,6 @@
-student = {"Name:": "Benjamin", "Grade:":"A", "Subjects:":["Math","History","English","Gym"], "Graduated:":"False"}
+student = {"name": "Benjamin", "grade":"A", "subjects":["Math","History","English","Gym"]}
 print(list(student.items()))
 for key, value in student.items():
     print(key, value)
+student["graduated"] = False
+print(list(student.items()))
