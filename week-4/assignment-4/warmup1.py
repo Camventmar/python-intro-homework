@@ -1,0 +1,5 @@
+numbers = (17,34,56,76,90,89,55,43)
+print(f"First:", numbers[0])
+print(f"Last: ", numbers[-1])
+print(f"Middle:",numbers[2:6])
+print(f"Reversed:",numbers[8::-1])
