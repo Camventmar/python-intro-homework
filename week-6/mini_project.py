@@ -43,7 +43,7 @@ def show_menu():
     print("5. Quit")
     return input("Choose an option (1-5): ")
 
-def main():
+if __name__ == "__main__":
     while True:
         choice = show_menu()
 
