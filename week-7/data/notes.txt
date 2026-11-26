@@ -1,4 +1,4 @@
-Python is great for working with files.
-You can read, write, and append text.
-The 'with' statement keeps things clean.
-Always close your files when you're done.
+Line 1: Python is great for working with files.
+Line 2: You can read, write, and append text.
+Line 3: The 'with' statement keeps things clean.
+Line 4: Always close your files when you're done.

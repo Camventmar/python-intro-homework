@@ -4,6 +4,7 @@ import os
 path = os.path.join("data", "expenses.csv")
 if not os.path.exists(path):
     print("error: expenses.csv not found.")
+    exit()
 # Read file and List Conversion
 with open(path, 'r') as file:
     reader = csv.DictReader(file)
@@ -21,7 +22,7 @@ print(f"Total Food Cost: ${total_value:.2f}")
 # Convert to Text File 
 from datetime import datetime
 now = datetime.now()
-time_conversion = now.strftime("%B %d,%Y")
+time_conversion = now.strftime("%B %d, %Y")
 with open('food_report.txt', 'w') as file:
     file.write(f"Food Expense Report — generated {time_conversion}\n")
     for item in food_filter:
